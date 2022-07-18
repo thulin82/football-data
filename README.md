@@ -15,4 +15,10 @@ $ npm install
 $ npm start
 ```
 
+### Environment variables
+In config/config.env add
+```
+API_KEY = 
+```
+
 © Markus Thulin 2019-
