@@ -20,7 +20,7 @@
         "hbs": "^4.2.0"
     },
     "devDependencies": {
-        "eslint": "^8.20.0",
+        "eslint": "^8.36.0",
         "nodemon": "^2.0.0"
     }
 }
