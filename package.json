@@ -1,5 +1,5 @@
 {
-    "name": "football-data-api",
+    "name": "football-data",
     "version": "1.0.0",
     "description": "NodeJS app using football-data.org API",
     "main": "server.js",
@@ -11,7 +11,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/thulin82/football-data-api"
+        "url": "https://github.com/thulin82/football-data.git"
     },
     "dependencies": {
         "cors": "^2.8.0",
