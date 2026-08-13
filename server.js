@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 const path = require("path");
 const hbs = require("hbs");
 
-dotenv.config({ path: "./config/config.env" });
+dotenv.config({ path: "./config/config.env", quiet: true });
 
 const app = express();
 
