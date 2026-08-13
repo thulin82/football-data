@@ -1,5 +1,7 @@
 # [Football Data](https://github.com/thulin82/football-data)
 
+[![CI](https://github.com/thulin82/football-data/actions/workflows/ci.yml/badge.svg)](https://github.com/thulin82/football-data/actions/workflows/ci.yml)
+
 Server-rendered Express + Handlebars app on top of the
 [football-data.org](https://www.football-data.org/) API, written in TypeScript.
 
@@ -22,11 +24,15 @@ $ npm install
 In `config/config.env` add
 
 ```
-API_KEY=
+API_KEY =
 ```
 
-Optional: `PORT` (default `4567`), `NODE_ENV`, `FOOTBALL_API_BASE_URL`
-(default `https://api.football-data.org/v2`).
+Optional:
+
+```
+PORT = (default 4567)
+NODE_ENV = FOOTBALL_API_BASE_URL(default `https://api.football-data.org/v2`)
+```
 
 ### Run app
 
